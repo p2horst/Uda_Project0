@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
     public void btnCapstoneApp_OnClick(View view){
         AppStartMock(getString(R.string.CAPSTONE));
     }
-    
+
     private void AppStartMock(String strApp)  {
         Context context = getApplicationContext();
         CharSequence text = "App " + strApp + " is out of order!";

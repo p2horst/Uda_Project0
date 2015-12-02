@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="de.softsolu.uda_project0.MainActivity"
     tools:showIn="@layout/activity_main"
-    android:background="#d1e2e7">
+    android:background="@color/colorBackround">
 
     <ScrollView android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -31,8 +31,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/SPOTIFY_STREAMER"
                 android:id="@+id/btnSpotifyStreamer"
-                android:background="#f08c35"
-                android:textColor="#ffffff"
+                android:background="@color/btnBackround"
+                android:textColor="@color/btnTextColor"
                 android:layout_margin="10dp"
                 android:clickable="true"
                 android:onClick="btn_SpotifyStreamer_OnClick" />
@@ -42,8 +42,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/SCORES_APP"
                 android:id="@+id/btnScoresApp"
-                android:background="#f08c35"
-                android:textColor="#ffffff"
+                android:background="@color/btnBackround"
+                android:textColor="@color/btnTextColor"
                 android:layout_margin="10dp"
                 android:clickable="true"
             android:onClick="btnScoresApp_OnClick"/>
@@ -52,8 +52,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/LIBRARY_APP"
                 android:id="@+id/btnLibraryApp"
-                android:background="#f08c35"
-                android:textColor="#ffffff"
+                android:background="@color/btnBackround"
+                android:textColor="@color/btnTextColor"
                 android:clickable="true"
                 android:layout_margin="10dp"
                 android:onClick="btnLibraryApp_OnClick" />
@@ -63,8 +63,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/BUILD_IT_BIGGER"
                 android:id="@+id/btnBuildItBigger"
-                android:background="#f08c35"
-                android:textColor="#ffffff"
+                android:background="@color/btnBackround"
+                android:textColor="@color/btnTextColor"
                 android:clickable="true"
                 android:layout_margin="10dp"
                 android:onClick="btnBuildItBigger_OnClick" />
@@ -74,8 +74,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/BACON_READER"
                 android:id="@+id/btnBaconReader"
-                android:background="#f08c35"
-                android:textColor="#ffffff"
+                android:background="@color/btnBackround"
+                android:textColor="@color/btnTextColor"
                 android:clickable="true"
                 android:layout_margin="10dp"
                 android:onClick="btnBaconReaderApp_OnClick" />
@@ -85,8 +85,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/CAPSTONE"
                 android:id="@+id/btnCapstoneMyOwnApp"
-                android:background="#ea5089"
-                android:textColor="#ffffff"
+                android:background="@color/btnBackround"
+                android:textColor="@color/btnTextColor"
                 android:clickable="true"
                 android:layout_margin="10dp"
                 android:layout_marginBottom="201dp"
