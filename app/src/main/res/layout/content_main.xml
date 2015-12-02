@@ -26,72 +26,36 @@
             android:layout_marginLeft="48dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp">
-         <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+            <Button
                 android:text="@string/SPOTIFY_STREAMER"
                 android:id="@+id/btnSpotifyStreamer"
-                android:background="@color/btnBackround"
-                android:textColor="@color/btnTextColor"
-                android:layout_margin="10dp"
-                android:clickable="true"
-                android:onClick="btn_SpotifyStreamer_OnClick" />
-
+                android:onClick="btn_SpotifyStreamer_OnClick"
+                style="@style/mainButton" />
             <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/SCORES_APP"
                 android:id="@+id/btnScoresApp"
-                android:background="@color/btnBackround"
-                android:textColor="@color/btnTextColor"
-                android:layout_margin="10dp"
-                android:clickable="true"
-            android:onClick="btnScoresApp_OnClick"/>
+                android:onClick="btnScoresApp_OnClick"
+                style="@style/mainButton"/>
             <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/LIBRARY_APP"
                 android:id="@+id/btnLibraryApp"
-                android:background="@color/btnBackround"
-                android:textColor="@color/btnTextColor"
-                android:clickable="true"
-                android:layout_margin="10dp"
-                android:onClick="btnLibraryApp_OnClick" />
-
+                android:onClick="btnLibraryApp_OnClick"
+                style="@style/mainButton" />
             <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/BUILD_IT_BIGGER"
                 android:id="@+id/btnBuildItBigger"
-                android:background="@color/btnBackround"
-                android:textColor="@color/btnTextColor"
-                android:clickable="true"
-                android:layout_margin="10dp"
-                android:onClick="btnBuildItBigger_OnClick" />
-
+                android:onClick="btnBuildItBigger_OnClick"
+                style="@style/mainButton"/>
             <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/BACON_READER"
                 android:id="@+id/btnBaconReader"
-                android:background="@color/btnBackround"
-                android:textColor="@color/btnTextColor"
-                android:clickable="true"
-                android:layout_margin="10dp"
-                android:onClick="btnBaconReaderApp_OnClick" />
-
+                android:onClick="btnBaconReaderApp_OnClick"
+                style="@style/mainButton"/>
             <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/CAPSTONE"
                 android:id="@+id/btnCapstoneMyOwnApp"
-                android:background="@color/btnBackround"
-                android:textColor="@color/btnTextColor"
-                android:clickable="true"
-                android:layout_margin="10dp"
-                android:layout_marginBottom="201dp"
-                android:onClick="btnCapstoneApp_OnClick" />
-
+                android:onClick="btnCapstoneApp_OnClick"
+                style="@style/CapstoneButton"/>
         </LinearLayout>
     </ScrollView>
 

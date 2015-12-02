@@ -17,4 +17,22 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="mainButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/btnBackround</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="CapstoneButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/btnCapstoneBackround</item>
+        <item name="android:textColor">@color/btnCapstoneTextColor</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
 </resources>
